@@ -75,3 +75,37 @@ nav .links a:hover {
 nav .links a.active {
   color: var(--purple);
 }
+/* links */
+
+a {
+  color: var(--cyan);
+}
+
+a:hover {
+  color: var(--pink);
+}
+
+/* lists */
+
+ul {
+  padding-left: 1.1rem;
+  margin: 0 0 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.plain-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-list li {
+  margin-bottom: 1.5rem;
+}
